@@ -1007,7 +1007,7 @@ window.__require = function e(t, n, o) {
                     this.canClick && 0 == cc.find("Canvas/uiEffectPanel").childrenCount && a.default.Instance.RestartGame()
                 }, t.prototype.OnClickMoreGame = function() {
                     this.canClick && (this.moreGameBtn.off(cc.Node.EventType.TOUCH_START, this.OnClickMoreGame, this), this.canClick = !1, this.moreGameBtn.runAction(cc.sequence(cc.scaleTo(.1, 1.1), cc.scaleTo(.1, 1))), this.scheduleOnce(function() {
-                        window.location.href = "https://younghoo-nuist-0g0gf26w0d5d116d-1304905822.tcloudbaseapp.com/Synthetic NUIST/index.html"
+                        window.location.href = "https://synthetic-nuist.vercel.app/"
                     }, .15))
                 }, t.prototype.GetContentByScore = function(e) {
                     var t = Math.ceil(e / 1500 * 94);
@@ -1401,7 +1401,7 @@ window.__require = function e(t, n, o) {
         cc._RF.push(t, "197e1hfNnxIcJx73V3VhUxY", "HttpManagerJs");
         var a = e("GameConfig"),
             i = (c(o = {
-                URL: "https://younghoo-nuist-0g0gf26w0d5d116d-1304905822.tcloudbaseapp.com/Synthetic NUIST/index.html",
+                URL: "https://synthetic-nuist.vercel.app/",
                 cacheList: null,
                 isBusy: null,
                 req: null,
